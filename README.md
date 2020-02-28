@@ -1,5 +1,60 @@
 # Ngsandbox
 
+- Differenza fra selettori
+  a) ul li
+  b) ul > li
+
+- Fornire un esempio di CSS Flebox
+
+- Differenza fra dichiarazioni 
+  a) var
+  b) const 
+
+- Metodologia per copiare un array (immutable-way)
+
+  const numbers = [1,2,3,4,5];
+
+# const myNumbers = ;
+
+myNumbers.push(6);
+
+console.log(numbers);
+[1,2,3,4,5]
+
+console.log(myNumbers);
+[1,2,3,4,5,6]
+
+- Differenza fra == e === ?
+
+- Come posso passare un parametro ad una funzione eseguita con setTimeout?
+
+function greets_person(person) {
+  return (function() {
+    alert("Hello, " + person)
+  });
+}
+
+var delayed=.....;
+
+setTimeout(delayed, 1000);
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
 ## Development server
